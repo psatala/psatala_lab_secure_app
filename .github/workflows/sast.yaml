@@ -20,3 +20,4 @@ jobs:
       - name: Run Scan
         run: |                              
           docker run -e OSS_USERNAME=toxiveh946@chokxus.com -e OSS_KEY=eaf29e5dca15946c9cc8626c666f8fe917e99b1a -e MIXEWAY_URL=https://hub.mixeway.io -e MIXEWAY_KEY=bb17ed6e-9104-4d5d-981c-5f61e57a6e79 -e MIXEWAY_PROJECT_ID=71 -e MODE=STANDALONE -e MIXEWAY_PROJECT_NAME=psatala_lab_secure_app -e COMMIT_ID=test -e BRANCH=master -v /opt/lab_sec_audit/sast:/opt/sources mixeway/scanner:latest
+
